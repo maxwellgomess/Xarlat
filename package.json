@@ -1,0 +1,31 @@
+{
+  "name": "xarlat-ios",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-community/cli-platform-ios": "~6.2.0",
+    "@react-native-community/masked-view": "^0.1.11",
+    "expo": "~48.0.11",
+    "expo-status-bar": "~1.4.4",
+    "react": "18.2.0",
+    "react-native": "0.71.6",
+    "react-native-gesture-handler": "~1.10.3",
+    "react-native-reanimated": "~2.3.0",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "~3.4.0",
+    "firebase": "^9.6.1",
+    "react-native-firebase": "^11.4.0",
+    "@react-navigation/native": "^6.0.6"
+
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
